@@ -12,8 +12,8 @@ devDependencies:
     specifier: 2.26.2
     version: 2.26.2
   renovate:
-    specifier: 37.13.2
-    version: 37.13.2(typanion@3.14.0)
+    specifier: 37.13.3
+    version: 37.13.3(typanion@3.14.0)
 
 packages:
 
@@ -987,8 +987,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@cdktf/hcl2json@0.18.0:
-    resolution: {integrity: sha512-wnnGTdXExmG+HCLsAsce3fOTDBpj8MpadMzKU7hxj+/xdGvACnU0JB7wcK0FRIKlbJFmxgwYzFmVrgd7z3Be/g==}
+  /@cdktf/hcl2json@0.18.1:
+    resolution: {integrity: sha512-zsWgeMxzhJEthkl4SA6VHEd6A3Nx9Jq6mYNFDvB0RtRUFoLVNJuuzgvwyUoeuzgMuOGtU3DhyvfYS8THDJKzuQ==}
     dependencies:
       fs-extra: 11.1.1
     dev: true
@@ -2357,8 +2357,8 @@ packages:
     dev: true
     optional: true
 
-  /@yarnpkg/core@3.5.3(typanion@3.14.0):
-    resolution: {integrity: sha512-yyU/fA2aWQ53KD5vsthJRJKhNO4zFgaKLNM3X6JgfUPfLLNQJxHvFpB4+X+v9HxceokiDGx3hp0DaAUWjO2mEw==}
+  /@yarnpkg/core@3.5.4(typanion@3.14.0):
+    resolution: {integrity: sha512-iIOoFnGOXP3LLxg0RiRIUB1n55bY0R1BRxxKsA2CtNeivR4wyBh/828SamthVzkKbsUs6y9q7U+1RMn9fEEHFg==}
     engines: {node: '>=12 <14 || 14.2 - 14.9 || >14.10.0'}
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
@@ -5504,8 +5504,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.13.2(typanion@3.14.0):
-    resolution: {integrity: sha512-oiZatVrJI4cePwDiGk9V2xRIUwrkvWoWLp9/p+LzUz/T9+Y72RIvRiejX8FC3OnqtCiNKM1Z2nDsGaBjK1HgaQ==}
+  /renovate@37.13.3(typanion@3.14.0):
+    resolution: {integrity: sha512-xzN6J4uSd4NabzItEeKnFFmnhBpSxY6oDJ9ff4Q5BxGhsMDdI0gBa5v5G0gStrY1odJxXlgxYaFEJCfpQk1pOA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -5516,7 +5516,7 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.1.0
-      '@cdktf/hcl2json': 0.18.0
+      '@cdktf/hcl2json': 0.18.1
       '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.6.0
       '@opentelemetry/context-async-hooks': 1.17.0(@opentelemetry/api@1.6.0)
@@ -5535,7 +5535,7 @@ packages:
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.32
       '@types/tmp': 0.2.4
-      '@yarnpkg/core': 3.5.3(typanion@3.14.0)
+      '@yarnpkg/core': 3.5.4(typanion@3.14.0)
       '@yarnpkg/parsers': 2.5.1
       agentkeepalive: 4.5.0
       aggregate-error: 3.1.0
