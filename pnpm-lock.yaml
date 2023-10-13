@@ -12,8 +12,8 @@ devDependencies:
     specifier: 2.26.2
     version: 2.26.2
   renovate:
-    specifier: 37.13.3
-    version: 37.13.3(typanion@3.14.0)
+    specifier: 37.18.1
+    version: 37.18.1(typanion@3.14.0)
 
 packages:
 
@@ -987,8 +987,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@cdktf/hcl2json@0.18.1:
-    resolution: {integrity: sha512-zsWgeMxzhJEthkl4SA6VHEd6A3Nx9Jq6mYNFDvB0RtRUFoLVNJuuzgvwyUoeuzgMuOGtU3DhyvfYS8THDJKzuQ==}
+  /@cdktf/hcl2json@0.18.2:
+    resolution: {integrity: sha512-TSuIMet9RSuXUWPz40ed/W4WMu92aHVnJ44lB5nap9E1PE8brr7FhnW32dFOy9m2H8WU4GAfSQ0k3GW6JitSig==}
     dependencies:
       fs-extra: 11.1.1
     dev: true
@@ -3266,12 +3266,12 @@ packages:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
     dev: true
 
-  /emojibase-regex@15.0.0:
-    resolution: {integrity: sha512-b5y58xrmZhH551zIa3ZOHl1mRI5KecA+5sAyWZCQEaj1maufZJJoENVwDqigzJoAkG604DuRqfdpy4E5rzSUsg==}
+  /emojibase-regex@15.2.0:
+    resolution: {integrity: sha512-65H5YepRW3gdrghV/Ed9kW3Qry8/qeKJmMlm31nTsOrEZfuAgyr28FmloXpyak86+chR8cukZA7dlafZzrJXbw==}
     dev: true
 
-  /emojibase@15.0.0:
-    resolution: {integrity: sha512-bvSIs98sHaVnyKPmW+obRjo49MFx0g+rhfSz6mTePAagEZSlDPosq0b6AcSJa5gt48z3VP2ooXclyBs8vIkpGA==}
+  /emojibase@15.2.0:
+    resolution: {integrity: sha512-gB6rIVtyJPersQvAo4nOGYPeILMhlcfZdiwCWVeRAtkJ7sm0tExZETGyLhrTQcHvZQhDEYI1vlCeqUhn5gZkQA==}
     dev: true
 
   /encoding@0.1.13:
@@ -5504,8 +5504,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.13.3(typanion@3.14.0):
-    resolution: {integrity: sha512-xzN6J4uSd4NabzItEeKnFFmnhBpSxY6oDJ9ff4Q5BxGhsMDdI0gBa5v5G0gStrY1odJxXlgxYaFEJCfpQk1pOA==}
+  /renovate@37.18.1(typanion@3.14.0):
+    resolution: {integrity: sha512-YiBKKUnZ/uXy2JCzAatRjBgZAqOwOTd7zI/4uGbAFC8lDsJdSn0rRyfYJCmBDI7tpFYMuDH2rBJC12MH2ckLxw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -5516,7 +5516,7 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@aws-sdk/credential-providers': 3.363.0
       '@breejs/later': 4.1.0
-      '@cdktf/hcl2json': 0.18.1
+      '@cdktf/hcl2json': 0.18.2
       '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.6.0
       '@opentelemetry/context-async-hooks': 1.17.0(@opentelemetry/api@1.6.0)
@@ -5557,8 +5557,8 @@ packages:
       editorconfig: 2.0.0
       email-addresses: 5.0.0
       emoji-regex: 10.2.1
-      emojibase: 15.0.0
-      emojibase-regex: 15.0.0
+      emojibase: 15.2.0
+      emojibase-regex: 15.2.0
       extract-zip: 2.0.1
       find-packages: 10.0.4
       find-up: 5.0.0
@@ -5615,7 +5615,7 @@ packages:
       validate-npm-package-name: 5.0.0
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
-      zod: 3.22.3
+      zod: 3.22.4
     optionalDependencies:
       re2: 1.20.3
     transitivePeerDependencies:
@@ -6695,8 +6695,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.22.3:
-    resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: true
 
   /zwitch@1.0.5:
