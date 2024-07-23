@@ -32,6 +32,14 @@
       "matchPackagePrefixes": [
         "@pothos/"
       ]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchFileNames": [
+        "^.devcontainer/devcontainer.json$",
+        "^.devcontainer.json$"
+      ],
+      "versioning": "semver"
     }
   ]
 }
