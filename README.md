@@ -1,9 +1,9 @@
 # renovate-config
 
-[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/agaroot-technologies/renovate-config/blob/main/LICENSE)
-[![Github](https://img.shields.io/github/followers/agaroot-technologies?label=Follow&logo=github&style=social)](https://github.com/orgs/agaroot-technologies/followers)
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/praha-inc/renovate-config/blob/main/LICENSE)
+[![Github](https://img.shields.io/github/followers/praha-inc?label=Follow&logo=github&style=social)](https://github.com/orgs/praha-inc/followers)
 
-This is a Renovate config commonly inherited by AGAROOT products.
+This is a Renovate config commonly inherited by PrAha products.
 
 Use this setting to keep up with updates to the library and maintain high code quality.
 
@@ -27,13 +27,13 @@ If merging a pull request requires the approval of two people, install an additi
 
 ### 4. Configure Renovate
 
-Create a Renovate configuration file (`renovate.json`), and add `github>agaroot-technologies/renovate-config` to the extends property.
+Create a Renovate configuration file (`renovate.json`), and add `github>praha-inc/renovate-config` to the extends property.
 
 ```json
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>agaroot-technologies/renovate-config"
+    "github>praha-inc/renovate-config"
   ]
 }
 ```
@@ -46,10 +46,10 @@ Check the [Renovate documentation](https://docs.renovatebot.com/configuration-op
 
 Contributions, issues and feature requests are welcome.
 
-Feel free to check [issues page](https://github.com/agaroot-technologies/renovate-config/issues) if you want to contribute.
+Feel free to check [issues page](https://github.com/praha-inc/renovate-config/issues) if you want to contribute.
 
 ## 📝 License
 
-Copyright © 2020 [AGAROOT TECHNOLOGIES](https://tech.agaroot.co.jp/).
+Copyright © 2024 [PrAha](https://www.praha-inc.com/).
 
-This project is [```MIT```](https://github.com/agaroot-technologies/renovate-config/blob/main/LICENSE) licensed.
+This project is [```MIT```](https://github.com/praha-inc/renovate-config/blob/main/LICENSE) licensed.

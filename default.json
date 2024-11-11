@@ -34,9 +34,9 @@
       ]
     },
     {
-      "groupName": "Agaroot eslint config packages",
+      "groupName": "PrAha eslint config packages",
       "matchPackagePrefixes": [
-        "@agaroot/eslint-config-"
+        "@praha/eslint-config-"
       ]
     }
   ]
