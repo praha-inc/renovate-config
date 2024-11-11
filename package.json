@@ -1,15 +1,15 @@
 {
-  "name": "@agaroot/renovate-config",
+  "name": "@praha/renovate-config",
   "version": "1.2.0",
   "private": true,
-  "description": "Renovate config for AGAROOT",
-  "homepage": "https://github.com/agaroot-technologies/renovate-config",
+  "description": "Renovate config for PrAha",
+  "homepage": "https://github.com/praha-inc/renovate-config",
   "bugs": {
-    "url": "https://github.com/agaroot-technologies/renovate-config/issues"
+    "url": "https://github.com/praha-inc/renovate-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agaroot-technologies/renovate-config.git"
+    "url": "git+https://github.com/praha-inc/renovate-config.git"
   },
   "license": "MIT",
   "scripts": {
