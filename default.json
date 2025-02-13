@@ -18,8 +18,7 @@
   "packageRules": [
     {
       "matchDatasources": ["docker"],
-      "ignoreDeps": ["postgres", "mysql"],
-      "automerge": false
+      "ignoreDeps": ["postgres", "mysql"]
     },
     {
       "groupName": "envelop packages",
