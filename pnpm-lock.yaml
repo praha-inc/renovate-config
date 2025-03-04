@@ -15,8 +15,8 @@ importers:
         specifier: 2.28.1
         version: 2.28.1
       renovate:
-        specifier: 39.185.0
-        version: 39.185.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 39.185.7
+        version: 39.185.7(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1231,8 +1231,8 @@ packages:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
     engines: {node: '>=18.0'}
 
-  cronstrue@2.54.0:
-    resolution: {integrity: sha512-vyp5NklDxA5MjPfQgkn0bA+0vRQe7Q9keX7RPdV6rMgd7LtDvbuKgnT+3T5ZAX16anSP5HmahcRp8mziXsLfaw==}
+  cronstrue@2.55.0:
+    resolution: {integrity: sha512-ZsBZNtQWb0Rk6CNGJlzpPBYqNE7t93Aez5ZCExLihGwmIpE5qThSTDQzDV8Z1Nw6ksmLkwI98nPKyciZ5sH7dw==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -1616,8 +1616,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  graph-data-structure@4.3.1:
-    resolution: {integrity: sha512-S+Qp6xtMb4AAWsixMHShDx/X/RYaWQMvs+IksTW6jPyamRzx7xILfOdJ+qPfcbcteZeKa7KDRqeEQv+jHlrBmw==}
+  graph-data-structure@4.4.0:
+    resolution: {integrity: sha512-eQ/BL0WiwDQKADavJ2e72/5PFAaXoQa2nQ3YQa5v25FgwJOp13DhXoYQP0Q4QlepPEKZfJyab/xMrmJaKYdj/A==}
 
   grapheme-splitter@1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
@@ -2397,8 +2397,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.5.1:
-    resolution: {integrity: sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==}
+  prettier@3.5.2:
+    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2506,8 +2506,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.185.0:
-    resolution: {integrity: sha512-OLejlPQxReE8n927OsfJH6NpFAKTxeGZtneXE2NB9q/3XcdDxW4GFIL18AgyLNE4lmxoQTToaB1QsKKl6XLr5Q==}
+  renovate@39.185.7:
+    resolution: {integrity: sha512-23X2Ms2T8cl0HKhHYx6O71wJULQ8miRpLf2lC/qyYIOdjDSlIWyCMCpKbvRqj1TsHK1CLaVSJLPFMO9cNH9DaQ==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5117,7 +5117,7 @@ snapshots:
 
   croner@9.0.0: {}
 
-  cronstrue@2.54.0: {}
+  cronstrue@2.55.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -5558,7 +5558,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graph-data-structure@4.3.1: {}
+  graph-data-structure@4.4.0: {}
 
   grapheme-splitter@1.0.4: {}
 
@@ -6349,7 +6349,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.5.1: {}
+  prettier@3.5.2: {}
 
   proc-log@4.2.0:
     optional: true
@@ -6500,7 +6500,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.185.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.185.7(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -6544,7 +6544,7 @@ snapshots:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.54.0
+      cronstrue: 2.55.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -6565,7 +6565,7 @@ snapshots:
       good-enough-parser: 1.1.23
       google-auth-library: 9.15.1(encoding@0.1.13)
       got: 11.8.6
-      graph-data-structure: 4.3.1
+      graph-data-structure: 4.4.0
       handlebars: 4.7.8
       ignore: 7.0.3
       ini: 5.0.0
@@ -6589,7 +6589,7 @@ snapshots:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.5.1
+      prettier: 3.5.2
       protobufjs: 7.4.0
       punycode: 2.3.1
       redis: 4.7.0
