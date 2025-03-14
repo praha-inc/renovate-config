@@ -18,6 +18,7 @@
   "packageRules": [
     {
       "matchDatasources": ["docker"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
       "ignoreDeps": ["postgres", "mysql"]
     },
     {
