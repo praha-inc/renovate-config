@@ -21,6 +21,10 @@
       "ignoreDeps": ["postgres", "mysql"]
     },
     {
+      "matchDatasources": ["docker"],
+      "matchUpdateTypes": ["digest"]
+    },
+    {
       "groupName": "envelop packages",
       "matchPackagePrefixes": [
         "@envelop/"
