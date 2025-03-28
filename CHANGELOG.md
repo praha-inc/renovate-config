@@ -1,5 +1,11 @@
 # @praha/renovate-config
 
+## 1.4.0
+
+### Minor Changes
+
+- [#412](https://github.com/praha-inc/renovate-config/pull/412) [`7ea1b31`](https://github.com/praha-inc/renovate-config/commit/7ea1b319778553c1d296a9138c9cdb36c3650d16) Thanks [@kmymso](https://github.com/kmymso)! - Allow automerge for Docker image digests as well
+
 ## 1.3.0
 
 ### Minor Changes
