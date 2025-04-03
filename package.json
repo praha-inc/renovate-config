@@ -1,6 +1,6 @@
 {
   "name": "@praha/renovate-config",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
   "description": "Renovate config for PrAha",
   "homepage": "https://github.com/praha-inc/renovate-config",
