@@ -22,7 +22,8 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchUpdateTypes": ["digest"]
+      "matchUpdateTypes": ["digest"],
+      "automerge": true
     },
     {
       "groupName": "envelop packages",
