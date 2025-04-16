@@ -15,8 +15,8 @@ importers:
         specifier: 2.29.1
         version: 2.29.1
       renovate:
-        specifier: 39.244.0
-        version: 39.244.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 39.245.2
+        version: 39.245.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1246,8 +1246,8 @@ packages:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
     engines: {node: '>=18.0'}
 
-  cronstrue@2.58.0:
-    resolution: {integrity: sha512-5P3esL5URj/u1h7N1zYl33V9XHNh15DQVGQITdIq7kAY78rP9tMYxXgi8kCXGoFqbyXFMMQRvzthHTYxUtp9Fw==}
+  cronstrue@2.59.0:
+    resolution: {integrity: sha512-YKGmAy84hKH+hHIIER07VCAHf9u0Ldelx1uU6EBxsRPDXIA1m5fsKmJfyC3xBhw6cVC/1i83VdbL4PvepTrt8A==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2521,8 +2521,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.244.0:
-    resolution: {integrity: sha512-Wwd6H05ZdpzdFhWlye32Qq3ofaJ/Lc6HEdPheyTVrVruKr8urjT/2MihWPeNwwLSvl91+CpAPPIK771PFe9GBg==}
+  renovate@39.245.2:
+    resolution: {integrity: sha512-/08J5DCxthMra9YBOCoTth8JKM40m5b9GbCru/3RKJXAPeP9lJpOETt2Gp04vQkPZ5Sb/RmIu3sQd4zRaXNvYw==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5196,7 +5196,7 @@ snapshots:
 
   croner@9.0.0: {}
 
-  cronstrue@2.58.0: {}
+  cronstrue@2.59.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -6579,7 +6579,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.244.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.245.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -6629,7 +6629,7 @@ snapshots:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.58.0
+      cronstrue: 2.59.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
