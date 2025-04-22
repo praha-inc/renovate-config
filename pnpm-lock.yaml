@@ -15,8 +15,8 @@ importers:
         specifier: 2.29.2
         version: 2.29.2
       renovate:
-        specifier: 39.253.0
-        version: 39.253.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 39.253.2
+        version: 39.253.2(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -933,8 +933,8 @@ packages:
   '@types/yauzl@2.10.1':
     resolution: {integrity: sha512-CHzgNU3qYBnp/O4S3yv2tXPlvMTq0YWSTVg2/JYLqWZGHwwgJGAwd00poay/11asPq8wLFwHzubyInqHIFmmiw==}
 
-  '@yarnpkg/core@4.4.0':
-    resolution: {integrity: sha512-ZT+dPniRDJEyH+z0oOXS+nNkrssJ2jsmqoKDP5y8wQpbHlG+bxqEq8Ri1uDQGLh+43LkEh1Brih9QMs9p3f5/A==}
+  '@yarnpkg/core@4.4.1':
+    resolution: {integrity: sha512-iWCcc7BVN2SPZahM55FoOL36NvfOnw8j90G5PqOyjBwfCJngj7jTeT16cj27fFfHYlq+gwuu4I/tkHYzZ2mplQ==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.2':
@@ -2521,8 +2521,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.253.0:
-    resolution: {integrity: sha512-rk37KPbl5H+U+YyW1V8Z3KcCGJK+BfrHjIf2ErqSri0B9xWGN4w/hxJ0qPbhf6Y2pbC3+pqD9xhWqjPoc3nk3A==}
+  renovate@39.253.2:
+    resolution: {integrity: sha512-K5S8ZAUTRzXcQdVsXWdVoVZf3t/Znh/huvot779ou2oJdk59wHv+LoTMJbWOXQF11omTgy+oa0jv10cuyFcggA==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4847,7 +4847,7 @@ snapshots:
       '@types/node': 20.8.2
     optional: true
 
-  '@yarnpkg/core@4.4.0(typanion@3.14.0)':
+  '@yarnpkg/core@4.4.1(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.5.3
@@ -6579,7 +6579,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.253.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.253.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -6613,7 +6613,7 @@ snapshots:
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 4.6.0
-      '@yarnpkg/core': 4.4.0(typanion@3.14.0)
+      '@yarnpkg/core': 4.4.1(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       agentkeepalive: 4.6.0
       aggregate-error: 3.1.0
