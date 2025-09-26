@@ -26,6 +26,12 @@
       "automerge": true
     },
     {
+      "groupName": "conform packages",
+      "matchPackagePrefixes": [
+        "@conform-to/"
+      ]
+    },
+    {
       "groupName": "envelop packages",
       "matchPackagePrefixes": [
         "@envelop/"
