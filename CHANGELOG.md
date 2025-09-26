@@ -1,5 +1,11 @@
 # @praha/renovate-config
 
+## 1.4.1
+
+### Patch Changes
+
+- [#498](https://github.com/praha-inc/renovate-config/pull/498) [`0b27cf7`](https://github.com/praha-inc/renovate-config/commit/0b27cf73285cf1e754d79bf7f48037930f200049) Thanks [@Karibash](https://github.com/Karibash)! - Add conform package group
+
 ## 1.4.0
 
 ### Minor Changes
