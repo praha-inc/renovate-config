@@ -1,5 +1,11 @@
 # @praha/renovate-config
 
+## 1.4.2
+
+### Patch Changes
+
+- [#536](https://github.com/praha-inc/renovate-config/pull/536) [`18a2b44`](https://github.com/praha-inc/renovate-config/commit/18a2b441c7742fbd557d694d766c424d0cf4e480) Thanks [@Karibash](https://github.com/Karibash)! - Add logtape package group
+
 ## 1.4.1
 
 ### Patch Changes
