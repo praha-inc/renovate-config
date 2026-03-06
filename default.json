@@ -38,6 +38,12 @@
       ]
     },
     {
+      "groupName": "logtape packages",
+      "matchPackagePrefixes": [
+        "@logtape/"
+      ]
+    },
+    {
       "groupName": "pothos packages",
       "matchPackagePrefixes": [
         "@pothos/"
