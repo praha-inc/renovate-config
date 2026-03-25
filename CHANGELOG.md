@@ -1,5 +1,11 @@
 # @praha/renovate-config
 
+## 1.4.3
+
+### Patch Changes
+
+- [#569](https://github.com/praha-inc/renovate-config/pull/569) [`3c95475`](https://github.com/praha-inc/renovate-config/commit/3c9547586c366c1c4aad0b7a1602d485c2d38625) Thanks [@Karibash](https://github.com/Karibash)! - Increase Node.js memory limit
+
 ## 1.4.2
 
 ### Patch Changes
