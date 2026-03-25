@@ -1,4 +1,5 @@
 {
+  "$schema": "./node_modules/renovate/renovate-schema.json",
   "extends": [
     "config:best-practices",
     ":automergeMinor",
@@ -15,6 +16,9 @@
   "ignorePaths": [
     "**/node_modules/**"
   ],
+  "toolSettings": {
+    "nodeMaxMemory": 1536
+  },
   "packageRules": [
     {
       "matchDatasources": ["docker"],
