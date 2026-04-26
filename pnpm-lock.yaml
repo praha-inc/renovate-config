@@ -1703,8 +1703,8 @@ packages:
     resolution: {integrity: sha512-IBTdIkzZNOpqm7q3dRqJvMaldXjDHWkEDfrwGEQTs5eaQMWV+djAhR+wahyNNMAa+qpbDUhBMVt4ZKNwpPm7xQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  install-artifact-from-github@1.5.0:
-    resolution: {integrity: sha512-lYchhkreaOzx3+83TiTX8ftN/tGipMlGONpJYYPUsW1eVwzB/7kRib1tCK0B4FMOIZhPHQiowqn3QH9XT7OUwg==}
+  install-artifact-from-github@1.6.0:
+    resolution: {integrity: sha512-wKsuzN8fy8QK7iEUqyWTQmvZ1QFGPn1xyl3/1iIIDthDjS7Hn9HoPwHlNakZirWbCsbad0lZMkr6Xfbpe1pUzw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -5388,7 +5388,7 @@ snapshots:
 
   ini@6.0.0: {}
 
-  install-artifact-from-github@1.5.0:
+  install-artifact-from-github@1.6.0:
     optional: true
 
   is-arrayish@0.2.1: {}
@@ -6179,7 +6179,7 @@ snapshots:
 
   re2@1.24.0:
     dependencies:
-      install-artifact-from-github: 1.5.0
+      install-artifact-from-github: 1.6.0
       nan: 2.26.2
       node-gyp: 12.3.0
     optional: true
