@@ -30,6 +30,12 @@
       "automerge": true
     },
     {
+      "groupName": "byethrow packages",
+      "matchPackagePrefixes": [
+        "@praha/byethrow"
+      ]
+    },
+    {
       "groupName": "conform packages",
       "matchPackagePrefixes": [
         "@conform-to/"
