@@ -64,6 +64,12 @@
       "matchPackagePrefixes": [
         "@praha/eslint-config-"
       ]
+    },
+    {
+      "groupName": "PrAha oxlint config packages",
+      "matchPackagePrefixes": [
+        "@praha/oxlint-config-"
+      ]
     }
   ]
 }
