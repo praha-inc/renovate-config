@@ -42,12 +42,6 @@
       ]
     },
     {
-      "groupName": "PrAha eslint config packages",
-      "matchSourceUrls": [
-        "https://github.com/praha-inc/eslint-config"
-      ]
-    },
-    {
       "groupName": "PrAha oxlint config packages",
       "matchSourceUrls": [
         "https://github.com/praha-inc/oxlint-config"
