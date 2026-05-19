@@ -1,5 +1,19 @@
 # @praha/renovate-config
 
+## 1.4.4
+
+### Patch Changes
+
+- [#621](https://github.com/praha-inc/renovate-config/pull/621) [`296e697`](https://github.com/praha-inc/renovate-config/commit/296e69744cb3b4087baf4c5fb0085b3efc1db71f) Thanks [@Karibash](https://github.com/Karibash)! - Remove package groups configured in the Renovate preset
+
+- [#619](https://github.com/praha-inc/renovate-config/pull/619) [`e4be2ab`](https://github.com/praha-inc/renovate-config/commit/e4be2abc29eaed44d900ff727ae7f85d73132e11) Thanks [@kmymso](https://github.com/kmymso)! - Add @praha/oxlint-config package group
+
+- [#622](https://github.com/praha-inc/renovate-config/pull/622) [`0799a8d`](https://github.com/praha-inc/renovate-config/commit/0799a8dd4ef7a447e1fe04f4469199b288648249) Thanks [@Karibash](https://github.com/Karibash)! - Switch package group matching from name prefix to source URL
+
+- [#618](https://github.com/praha-inc/renovate-config/pull/618) [`da486b0`](https://github.com/praha-inc/renovate-config/commit/da486b06c29e1258d9f7da61ff93af9e3650023f) Thanks [@kmymso](https://github.com/kmymso)! - Add byethrow package group
+
+- [#623](https://github.com/praha-inc/renovate-config/pull/623) [`44994e5`](https://github.com/praha-inc/renovate-config/commit/44994e586e84611a90117bf7f620173d703e7cb0) Thanks [@Karibash](https://github.com/Karibash)! - Remove deprecated packages from the package group
+
 ## 1.4.3
 
 ### Patch Changes
