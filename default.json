@@ -31,26 +31,26 @@
     },
     {
       "groupName": "byethrow packages",
-      "matchPackagePrefixes": [
-        "@praha/byethrow"
+      "matchSourceUrls": [
+        "https://github.com/praha-inc/byethrow"
       ]
     },
     {
       "groupName": "logtape packages",
-      "matchPackagePrefixes": [
-        "@logtape/"
+      "matchSourceUrls": [
+        "https://github.com/dahlia/logtape"
       ]
     },
     {
       "groupName": "PrAha eslint config packages",
-      "matchPackagePrefixes": [
-        "@praha/eslint-config-"
+      "matchSourceUrls": [
+        "https://github.com/praha-inc/eslint-config"
       ]
     },
     {
       "groupName": "PrAha oxlint config packages",
-      "matchPackagePrefixes": [
-        "@praha/oxlint-config-"
+      "matchSourceUrls": [
+        "https://github.com/praha-inc/oxlint-config"
       ]
     }
   ]
