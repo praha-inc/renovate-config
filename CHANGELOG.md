@@ -1,5 +1,11 @@
 # @praha/renovate-config
 
+## 1.4.5
+
+### Patch Changes
+
+- [#624](https://github.com/praha-inc/renovate-config/pull/624) [`d5b658b`](https://github.com/praha-inc/renovate-config/commit/d5b658b47b849da472db03df992f5946502e7441) Thanks [@Karibash](https://github.com/Karibash)! - Remove nodeMaxMemory setting
+
 ## 1.4.4
 
 ### Patch Changes
