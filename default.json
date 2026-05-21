@@ -16,9 +16,6 @@
   "ignorePaths": [
     "**/node_modules/**"
   ],
-  "toolSettings": {
-    "nodeMaxMemory": 1536
-  },
   "packageRules": [
     {
       "matchDatasources": ["docker"],
