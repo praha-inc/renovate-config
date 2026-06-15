@@ -15,8 +15,8 @@ importers:
         specifier: 2.31.0
         version: 2.31.0(@types/node@25.9.3)
       renovate:
-        specifier: 43.216.1
-        version: 43.216.1(typanion@3.14.0)
+        specifier: 43.220.0
+        version: 43.220.0(typanion@3.14.0)
 
 packages:
 
@@ -2143,8 +2143,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.216.1:
-    resolution: {integrity: sha512-qlb7aFLa8OKdvEWrTuu/wN9B+F/iLkFYxAOfT/elb5S9TR5GNF0lyTbaT08dPoZybWKhdH6345eP+xWmuXWEFQ==}
+  renovate@43.220.0:
+    resolution: {integrity: sha512-q3bkIyhnAV+oPirFeiI6jKIjN5IE1sbO7DHiAZgkfjCX68enwNsvm9N9dKYUBqo/GLdPhca9dERm4X0QP7LmvA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3191,7 +3191,7 @@ snapshots:
 
   '@npmcli/fs@5.0.0':
     dependencies:
-      semver: 7.8.1
+      semver: 7.8.4
 
   '@one-ini/wasm@0.2.1': {}
 
@@ -3637,7 +3637,7 @@ snapshots:
       hpagent: 1.2.0
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.8.1
+      semver: 7.8.4
       strip-ansi: 6.0.1
       tar: 7.5.16
       tinylogic: 2.0.0
@@ -3772,7 +3772,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.8.1
+      semver: 7.8.4
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -4003,7 +4003,7 @@ snapshots:
       '@one-ini/wasm': 0.2.1
       commander: 14.0.3
       minimatch: 10.2.5
-      semver: 7.8.1
+      semver: 7.8.4
 
   email-addresses@5.0.0: {}
 
@@ -4284,7 +4284,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.8.1
+      semver: 7.8.4
       serialize-error: 7.0.1
 
   globalthis@1.0.4:
@@ -5013,7 +5013,7 @@ snapshots:
       graceful-fs: 4.2.11
       nopt: 9.0.0
       proc-log: 6.1.0
-      semver: 7.8.1
+      semver: 7.8.4
       tar: 7.5.16
       tinyglobby: 0.2.17
       undici: 6.26.0
@@ -5257,7 +5257,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.216.1(typanion@3.14.0):
+  renovate@43.220.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
