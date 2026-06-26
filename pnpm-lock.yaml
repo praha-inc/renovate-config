@@ -15,8 +15,8 @@ importers:
         specifier: 2.31.0
         version: 2.31.0(@types/node@26.0.0)
       renovate:
-        specifier: 43.234.1
-        version: 43.234.1(typanion@3.14.0)
+        specifier: 43.236.0
+        version: 43.236.0(typanion@3.14.0)
 
 packages:
 
@@ -695,8 +695,8 @@ packages:
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
-  '@yarnpkg/core@4.8.0':
-    resolution: {integrity: sha512-knO69Rqtr5GkGwGOKKhX1gLv7i2SDujoe4TBODUUzY/NLRuNBHPtFoANGYrMsGSSbsnmLLbGEJGQQ6c/CJXF2w==}
+  '@yarnpkg/core@4.9.0':
+    resolution: {integrity: sha512-vhJEVo423jAZBtU5CDe2HEkyNkEYfgMfukNQk1uyYFkP3OmCsuLzpyqbJCEXIg6Fy3YTrQg7kSCnjHbLed3toA==}
     engines: {node: '>=18.12.0'}
 
   '@yarnpkg/fslib@3.1.5':
@@ -2142,8 +2142,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.234.1:
-    resolution: {integrity: sha512-vpVWugzITucq2iV90h+A8fMCYl6x+GBpZHyKllE8UbDxbuLzdVtrbT/xpUhoFOrO3aelGCDCzLoJPdsscWWRYw==}
+  renovate@43.236.0:
+    resolution: {integrity: sha512-beWaAXORx7ELoENvY8O7Vry56Oqybqt2K8/fa0ELUxE1SJOZj+w/ih64ZZF/bTEmKmLrU7HFiFEF48QrZc2Qmw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3609,7 +3609,7 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@yarnpkg/core@4.8.0(typanion@3.14.0)':
+  '@yarnpkg/core@4.9.0(typanion@3.14.0)':
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.7.1
@@ -5251,7 +5251,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.234.1(typanion@3.14.0):
+  renovate@43.236.0(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
@@ -5288,7 +5288,7 @@ snapshots:
       '@renovatebot/pgp': 1.3.14
       '@renovatebot/ruby-semver': 5.0.0
       '@sindresorhus/is': 8.1.0
-      '@yarnpkg/core': 4.8.0(typanion@3.14.0)
+      '@yarnpkg/core': 4.9.0(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       adm-zip: 0.5.17
       ae-cvss-calculator: 1.0.12
