@@ -15,8 +15,8 @@ importers:
         specifier: 2.31.0
         version: 2.31.0(@types/node@26.1.0)
       renovate:
-        specifier: 43.251.1
-        version: 43.251.1(typanion@3.14.0)
+        specifier: 43.251.3
+        version: 43.251.3(typanion@3.14.0)
 
 packages:
 
@@ -706,8 +706,8 @@ packages:
     resolution: {integrity: sha512-+Ut8d9LLqwEvHHJl1+PIHqoyDxFgVN847JTVM3Izi3xHDWPE4UtzzXysMZQs64DMcrJfBeS/uoEP4AD3HQHnQQ==}
     engines: {node: '>=12.0'}
 
-  ae-cvss-calculator@1.0.12:
-    resolution: {integrity: sha512-YVO+dhb8sZubNeL9pqSlN5hyZGC8hkAwnThnd3EimUGZtJEMeuy4kMb7zMCAsBiMr/RxklH0oY7DCsFV/B7peg==}
+  ae-cvss-calculator@1.0.13:
+    resolution: {integrity: sha512-QnPO1O5gZ/1NM+X4fbfqN/y5rImEZ8CSkbSk7Arv4RrmxPzxLXr9RSLmsQJykDtXFUXn9wHLxC0/fe/pO78t3w==}
 
   agent-base@7.1.4:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
@@ -2101,8 +2101,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.251.1:
-    resolution: {integrity: sha512-TXIEB+TGbUmzRbL5KUDybjC2ydr9DPssXLfkFkaBG87E4SaT5nPcDTqQCTxfWCP51aemQMsJrjGckUeD7NmG7Q==}
+  renovate@43.251.3:
+    resolution: {integrity: sha512-TAgaJGO3k5Knvgq5H8N4ETx6ksCmDj20JIxK9OIKVlWm7q6o5hI+osQqV1VjnfkpKe5rl9BRUu8ZvB+pfQDA/g==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3580,7 +3580,7 @@ snapshots:
 
   adm-zip@0.5.17: {}
 
-  ae-cvss-calculator@1.0.12: {}
+  ae-cvss-calculator@1.0.13: {}
 
   agent-base@7.1.4: {}
 
@@ -5138,7 +5138,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.251.1(typanion@3.14.0):
+  renovate@43.251.3(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -5178,7 +5178,7 @@ snapshots:
       '@yarnpkg/core': 4.9.0(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
       adm-zip: 0.5.17
-      ae-cvss-calculator: 1.0.12
+      ae-cvss-calculator: 1.0.13
       agentkeepalive: 4.6.0
       async-mutex: 0.5.0
       aws4: 1.13.2
