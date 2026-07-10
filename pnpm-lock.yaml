@@ -15,8 +15,8 @@ importers:
         specifier: 2.31.0
         version: 2.31.0(@types/node@26.1.0)
       renovate:
-        specifier: 43.252.8
-        version: 43.252.8(typanion@3.14.0)
+        specifier: 43.253.1
+        version: 43.253.1(typanion@3.14.0)
 
 packages:
 
@@ -1949,10 +1949,6 @@ packages:
     resolution: {integrity: sha512-T8BatKGY+k5rU+Q/GTYgrEf2r4xRMevAN5mtXc2aPc4rS1j3s+vWTaO2Wag94neXuCAUAs8cxBL9EeB5EA6diw==}
     engines: {node: '>=16'}
 
-  p-map@7.0.4:
-    resolution: {integrity: sha512-tkAQEw8ysMzmkhgw8k+1U/iPhWNhykKnSk4Rd5zLoPJCuJaGRPo6YposrZgaxHKzDHdDWWZvE/Sk7hsL2X/CpQ==}
-    engines: {node: '>=18'}
-
   p-map@7.0.5:
     resolution: {integrity: sha512-e8vJF4XdVkzqqSHguEMz41mQO1wKwxKm5ENrUJQUu9kLDCtn83cxbyHZcszr4QC5zEA7WffRRC4gsTecC7J9oA==}
     engines: {node: '>=18'}
@@ -2109,8 +2105,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.252.8:
-    resolution: {integrity: sha512-y9ZJvC03JDNvvnKRdV3yh93k9zRQbWq0TneakXkgxSJyyKoAKxmHMk8S+bHksj/hR8TMPimsOg+Q65fjlvRB2g==}
+  renovate@43.253.1:
+    resolution: {integrity: sha512-SVVSrKcEeA4VatZOjzuJNmQMiZ50/VT5jjte3XI5v2pnWqowdcfJB7fv52LMIXmrRpqrz6bMrWkEERD0T4TqhA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3336,7 +3332,7 @@ snapshots:
 
   '@renovatebot/detect-tools@4.0.8':
     dependencies:
-      fs-extra: 11.3.5
+      fs-extra: 11.3.6
       toml-eslint-parser: 1.0.3
       upath: 3.0.7
       zod: 4.4.3
@@ -3694,7 +3690,7 @@ snapshots:
       minipass-collect: 2.0.1
       minipass-flush: 1.0.7
       minipass-pipeline: 1.2.4
-      p-map: 7.0.4
+      p-map: 7.0.5
       ssri: 13.0.1
 
   cacheable-lookup@5.0.4: {}
@@ -4987,8 +4983,6 @@ snapshots:
 
   p-map@6.0.0: {}
 
-  p-map@7.0.4: {}
-
   p-map@7.0.5: {}
 
   p-queue@9.3.0:
@@ -5154,7 +5148,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.252.8(typanion@3.14.0):
+  renovate@43.253.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
