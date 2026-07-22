@@ -23,5 +23,5 @@
     "@changesets/cli": "2.31.1",
     "renovate": "43.270.1"
   },
-  "packageManager": "pnpm@11.13.1"
+  "packageManager": "pnpm@11.15.0"
 }
