@@ -33,6 +33,13 @@
       ]
     },
     {
+      "groupName": "graphql-tools packages",
+      "matchSourceUrls": [
+        "https://github.com/ardatan/graphql-tools",
+        "https://github.com/graphql-hive/gateway"
+      ]
+    },
+    {
       "groupName": "logtape packages",
       "matchSourceUrls": [
         "https://github.com/dahlia/logtape"
@@ -42,6 +49,14 @@
       "groupName": "PrAha oxlint config packages",
       "matchSourceUrls": [
         "https://github.com/praha-inc/oxlint-config"
+      ]
+    },
+    {
+      "groupName": "stylelint packages",
+      "matchPackageNames": [
+        "stylelint",
+        "stylelint-*",
+        "@stylistic/stylelint-*"
       ]
     }
   ]
