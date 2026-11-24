@@ -50,6 +50,14 @@
       "matchSourceUrls": [
         "https://github.com/praha-inc/oxlint-config"
       ]
+    },
+    {
+      "groupName": "stylelint packages",
+      "matchPackageNames": [
+        "stylelint",
+        "stylelint-*",
+        "@stylistic/stylelint-*"
+      ]
     }
   ]
 }
