@@ -1,5 +1,13 @@
 # @praha/renovate-config
 
+## 1.4.6
+
+### Patch Changes
+
+- [#768](https://github.com/praha-inc/renovate-config/pull/768) [`057a6e4`](https://github.com/praha-inc/renovate-config/commit/057a6e44bf2ef370c5e2299f0dce2d7bc80a0171) Thanks [@kmymso](https://github.com/kmymso)! - Add stylelint package group
+
+- [#768](https://github.com/praha-inc/renovate-config/pull/768) [`ce8f898`](https://github.com/praha-inc/renovate-config/commit/ce8f89879e8c526e35fe2afd9990472c7de0b156) Thanks [@kmymso](https://github.com/kmymso)! - Add graphql-tools package group
+
 ## 1.4.5
 
 ### Patch Changes
